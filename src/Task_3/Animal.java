@@ -33,4 +33,7 @@ public class Animal {
     public void setColor(String color) {
         this.color = color;
     }
+    public void show(){
+        System.out.println("名字："+getName()+"，颜色："+getColor());
+    }
 }
